@@ -318,6 +318,140 @@ that database.
 
 \section{Creating a Table}
 
+To create a new table in MySQL, you can use the \textbf{CREATE TABLE}
+statement followed by the name of the table and a list of columns. The
+following example creates a new table named \textbf{table\_name} with
+three columns: \textbf{id}, \textbf{name}, and \textbf{age}:
+
+\begin{lstlisting}[language=SQL, caption={Creating a new table in MySQL}, label={lst:create-table}]
+CREATE TABLE table_name (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50),
+  age INT
+);
+\end{lstlisting}
+
+Code \ref{lst:create-table} shows an example of creating a new table in
+MySQL using the \textbf{CREATE TABLE} statement. The statement creates a
+new table named \textbf{table\_name} with three columns: \textbf{id},
+\textbf{name}, and \textbf{age}. Each column is defined with a data type
+(INT or VARCHAR) and a maximum length (50 for VARCHAR).
+
+\section{Showing Tables}
+
+To display a list of all tables in a database in MySQL, you can use the
+\textbf{SHOW TABLES} statement. The following example shows a list of all
+tables in the current database:
+
+\begin{lstlisting}[language=SQL, caption={Showing all tables in MySQL}, label={lst:show-tables}]
+SHOW TABLES;
+\end{lstlisting}
+
+Code \ref{lst:show-tables} shows an example of displaying a list of all
+tables in the current database in MySQL using the \textbf{SHOW TABLES}
+statement. The statement lists all tables that are currently available in
+the database.
+
+\noindent\textbf{Exercises}
+
+\begin{lstlisting}[numbers=none]
+1. Display a list of all tables in the current database.
+\end{lstlisting}
+
+\section{Describe Table}
+
+To display the structure of a table in MySQL, you can use the
+\textbf{DESCRIBE} statement followed by the name of the table. The
+following example shows the structure of the \textbf{table\_name} table:
+
+\begin{lstlisting}[language=SQL, caption={Describing a table in MySQL}, label={lst:describe-table}]
+DESCRIBE table_name;
+\end{lstlisting}
+
+Code \ref{lst:describe-table} shows an example of displaying the
+structure of a table in MySQL using the \textbf{DESCRIBE} statement. The
+statement shows the columns, data types, and other properties of the
+\textbf{table\_name} table.
+
+\section{Renaming a Table}
+
+To rename a table in MySQL, you can use the \textbf{RENAME TABLE}
+statement followed by the current name of the table and the new name of
+the table. The following example renames the \textbf{old\_table} table to
+\textbf{new\_table}:
+
+\begin{lstlisting}[language=SQL, caption={Renaming a table in MySQL}, label={lst:rename-table}]
+RENAME TABLE old_table TO new_table;
+\end{lstlisting}
+
+Code \ref{lst:rename-table} shows an example of renaming a table in MySQL
+using the \textbf{RENAME TABLE} statement. The statement renames the
+\textbf{old\_table} table to \textbf{new\_table}.
+
+\section{Dropping a Table}
+
+To drop a table in MySQL, you can use the \textbf{DROP TABLE} statement
+followed by the name of the table. The following example drops the
+\textbf{table\_name} table:
+
+\begin{lstlisting}[language=SQL, caption={Dropping a table in MySQL}, label={lst:drop-table}]
+DROP TABLE table_name;
+\end{lstlisting}
+
+Code \ref{lst:drop-table} shows an example of dropping a table in MySQL
+using the \textbf{DROP TABLE} statement. The statement deletes the
+\textbf{table\_name} table and all data stored in that table.
+
+\noindent\textbf{Exercises}
+
+\begin{lstlisting}[numbers=none]
+1. Create a database named "library".
+2. Create a table named "books" with columns:
+    - id (INT, PRIMARY KEY, AUTO_INCREMENT)
+    - title (VARCHAR, 100)
+    - author (VARCHAR, 50)
+    - year (INT)
+3. Create a table named "users" with columns:
+    - id (INT, PRIMARY KEY, AUTO_INCREMENT)
+    - name (VARCHAR, 50)
+    - email (VARCHAR, 100)
+    - is_staff (BOOLEAN)
+4. Display the structure of the "books" table.
+5. Rename the "users" table to "members".
+6. Drop the "members" table.
+\end{lstlisting}
+
+\section{Temporary Tables}
+
+Temporary tables are a special type of table that is created and
+destroyed automatically by the MySQL server. Temporary tables are useful
+for storing temporary data that is only needed for the duration of a
+session or a query. Temporary tables are created using the \textbf{CREATE
+TEMPORARY TABLE} statement and are automatically dropped when the session
+ends.
+
+\begin{lstlisting}[language=SQL, caption={Creating a temporary table in MySQL}, label={lst:create-temp-table}]
+CREATE TEMPORARY TABLE temp_table (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50)
+);
+\end{lstlisting}
+
+Code \ref{lst:create-temp-table} shows an example of creating a temporary
+table in MySQL using the \textbf{CREATE TEMPORARY TABLE} statement. The
+statement creates a temporary table named \textbf{temp\_table} with two
+columns: \textbf{id} and \textbf{name}. The temporary table is
+automatically dropped when the session ends.
+
+\noindent\textbf{Exercises}
+
+\begin{lstlisting}[numbers=none]
+1. Create a temporary table named "temp_data" with columns:
+    - id (INT, PRIMARY KEY, AUTO_INCREMENT)
+    - value (VARCHAR, 50)
+2. Display a list of all tables in the current database.
+\end{lstlisting}
+
 \chapter{References}
 
 \begin{enumerate}[label={\textbf{\Alph*.}}]

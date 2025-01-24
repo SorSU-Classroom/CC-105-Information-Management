@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  24 JAN 2025 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  24 JAN 2025 10:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1169,13 +1169,17 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 [7
 
 ]
+
+[8]
+
+[9]
  4.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 327.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 461.
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[8
+[10
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./Information Management.aux)
  ***********
@@ -1187,21 +1191,21 @@ L3 programming layer <2024-12-25>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `"Information Management".out' has not changed.
-(rerunfilecheck)             Checksum: 31609C364A5C5C0EA0516B97488191D9;3392.
+(rerunfilecheck)             Checksum: D178EEBD7EE090948CF617AC3424055E;4068.
  ) 
 Here is how much of TeX's memory you used:
- 34480 strings out of 473207
- 646823 string characters out of 5720461
- 1376388 words of memory out of 5000000
- 56850 multiletter control sequences out of 15000+600000
- 668750 words of font info for 207 fonts, out of 8000000 for 9000
+ 34587 strings out of 473207
+ 648191 string characters out of 5720461
+ 1423388 words of memory out of 5000000
+ 56891 multiletter control sequences out of 15000+600000
+ 669541 words of font info for 216 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,1326b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1326b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Information Management.pdf" (14 pages, 330417 bytes).
+Output written on "Information Management.pdf" (16 pages, 342137 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 62773 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 114 named destinations out of 1000 (max. 500000)
+ 62813 words of extra memory for PDF output out of 74296 (max. 10000000)
 

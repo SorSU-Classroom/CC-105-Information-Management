@@ -23,4 +23,9 @@
 \contentsline {section}{\numberline {2.4}Removing a Database}{6}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Managing Tables}{7}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Creating a Table}{7}{section.3.1}%
-\contentsline {chapter}{\numberline {4}References}{8}{chapter.4}%
+\contentsline {section}{\numberline {3.2}Showing Tables}{7}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Describe Table}{8}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Renaming a Table}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Dropping a Table}{8}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Temporary Tables}{9}{section.3.6}%
+\contentsline {chapter}{\numberline {4}References}{10}{chapter.4}%
