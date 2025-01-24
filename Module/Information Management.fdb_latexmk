@@ -1,13 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1737685298.70223 "c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" "Information Management.pdf" "Information Management" 1737685301.1988 0
-  "Information Management.aux" 1737685300 6970 8909dcb4da6f9c75819add33e36f41e6 "pdflatex"
-  "Information Management.lof" 1737685300 110 a51cfa89ef63f1755f6c9a71705a96e5 "pdflatex"
-  "Information Management.lol" 1737685300 1221 f80b2581902d80965eb7a02f2c35d748 "pdflatex"
-  "Information Management.lot" 1737685300 206 f0eaff696f473a75d1eaf7176b05cded "pdflatex"
-  "Information Management.out" 1737685300 4068 d178eebd7ee090948cf617ac3424055e "pdflatex"
-  "Information Management.tex" 1737685297 17322 7f2f38044e7246ebc3a2d6c81943bf10 ""
-  "Information Management.toc" 1737685300 2374 a7ae7dab83a3b076030f6cff6990990f "pdflatex"
-  "c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" 1737685297 17322 7f2f38044e7246ebc3a2d6c81943bf10 ""
+["pdflatex"] 1737686875.43325 "c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" "Information Management.pdf" "Information Management" 1737686877.91887 0
+  "Information Management.aux" 1737686877 6970 8909dcb4da6f9c75819add33e36f41e6 "pdflatex"
+  "Information Management.lof" 1737686877 110 a51cfa89ef63f1755f6c9a71705a96e5 "pdflatex"
+  "Information Management.lol" 1737686877 1221 f80b2581902d80965eb7a02f2c35d748 "pdflatex"
+  "Information Management.lot" 1737686877 206 f0eaff696f473a75d1eaf7176b05cded "pdflatex"
+  "Information Management.out" 1737686877 4068 d178eebd7ee090948cf617ac3424055e "pdflatex"
+  "Information Management.tex" 1737686869 17322 7f2f38044e7246ebc3a2d6c81943bf10 ""
+  "Information Management.toc" 1737686877 2374 a7ae7dab83a3b076030f6cff6990990f "pdflatex"
+  "c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" 1737686869 17322 7f2f38044e7246ebc3a2d6c81943bf10 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1737124372 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1737124372 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1737119831 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -265,7 +265,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737136867 5511921 18a028efc78b2843c6afa60bdbc6c82c ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737137039 3352053 bd0b65ed65e005aa54958bb455d3756a ""
   "c:/texlive/2024/texmf.cnf" 1737136840 713 e69b156964470283e0530f5060668171 ""
-  "modulestyle.sty" 1737614588 4795 9143867783c672bcc923ac8bf05fa204 ""
+  "modulestyle.sty" 1737686838 4795 9143867783c672bcc923ac8bf05fa204 ""
   (generated)
   "Information Management.aux"
   "Information Management.lof"
