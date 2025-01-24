@@ -1,0 +1,332 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX book template                           %%
+%% Author:  Amber Jain (http://amberj.devio.us/) %%
+%% License: ISC license                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt,oneside]{book}
+\usepackage{modulestyle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 'dedication' environment: To add a dedication paragraph at the start of book %
+% Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{dedication}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedright
+}
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter quote at the start of chapter        %
+% Source: http://tex.stackexchange.com/a/53380 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First page of book which contains 'stuff' like: %
+%  - Book title, subtitle                         %
+%  - Book author name                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\BookTitle}{Information Management (MySQL)}
+\newcommand{\BookTitleFootnote}{A course in the Bachelor of Science in Computer Science.}
+
+\newcommand{\BookSubtitle}{A Study Guide for Students of Sorsogon State University - Bulan Campus}
+\newcommand{\BookSubtitleFootnote}{This book is a study guide for students of
+Sorsogon State University - Bulan Campus taking up the course Information Management.}
+
+\newcommand{\BookAuthorFirstName}{Jarrian Vince}
+\newcommand{\BookAuthorLastName}{Gojar}
+\newcommand{\BookAuthorName}{Jarrian Vince G. Gojar}
+\newcommand{\BookAuthorURL}{https://github.com/godkingjay}
+
+% Book's title and subtitle
+\title{\Huge \textbf{\BookTitle}  \footnote{\BookTitleFootnote} \\
+\huge \BookSubtitle \footnote{\BookSubtitleFootnote}}
+
+% Author
+\author{\textsc{\BookAuthorName}\thanks{\url{\BookAuthorURL}}}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Add a dedication paragraph to dedicate your book to someone %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{dedication}
+Sorsogon State University - Bulan Campus
+\end{dedication}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Auto-generated table of contents, list of figures and list of tables %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
+
+\mainmatter
+
+%%%%%%%%%%%
+% Preface %
+%%%%%%%%%%%
+\chapter*{Preface}
+% A Quote all about Databases
+\begin{chapquote}{Daniel Keys Moran}
+``You can have data without information, but you cannot have information without data.''
+\end{chapquote}
+
+\noindent \BookAuthorName \\
+\noindent \url{\BookAuthorURL}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%~ NEW CHAPTER STARTS HERE %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction to MySQL}
+
+\section{What is MySQL?}
+
+\textbf{MySQL} is an open-source relational database management system 
+(RDBMS). An RDBMS is a type of database management system (DBMS) that 
+stores data in a structured format, using rows and columns. It is a
+software that is used to manage the creation, modification, and
+maintenance of a database. MySQL is a popular choice for database
+management in web applications and is used by many high-profile
+websites, including Facebook, Twitter, and YouTube.
+
+\section{MySQL Elements}
+
+\subsection{Tables}
+
+A \textbf{table} is a collection of related data stored in rows and
+columns. Each row in a table represents a record, and each column
+represents a field. Tables are the basic building blocks of a database
+and are used to store and organize data in a structured format.
+
+% Example of a table
+\begin{table}[!h]
+  \centering
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{id} & \textbf{name} & \textbf{age} \\
+    \hline
+    1 & Alice & 25 \\
+    2 & Bob & 30 \\
+    3 & Charlie & 35 \\
+    \hline
+  \end{tabular}
+  \caption{Example of a table}
+\end{table}
+
+Table \ref{table:example} shows an example of a table with three
+columns: \textbf{id}, \textbf{name}, and \textbf{age}. Each row in the
+table represents a record with a unique \textbf{id} value, and each
+column represents a field in the record.
+
+\subsection{Columns}
+
+A \textbf{column} is a vertical arrangement of data in a table. Each
+column represents a field in the table and contains data of a specific
+type. Columns are used to store different types of data, such as
+numbers, text, dates, and more.
+
+In the example table above, the columns are \textbf{id}, \textbf{name},
+and \textbf{age}. The \textbf{id} column stores unique identifiers for
+each record, the \textbf{name} column stores the names of the
+individuals, and the \textbf{age} column stores the ages of the
+individuals.
+
+\subsection{Rows}
+
+A \textbf{row} is a horizontal arrangement of data in a table. Each row
+represents a record in the table and contains data for each column in
+the table. Rows are used to store individual records in the table.
+
+In the example table above, each row represents a record with data for
+the \textbf{id}, \textbf{name}, and \textbf{age} columns. The first row
+contains data for Alice, the second row contains data for Bob, and the
+third row contains data for Charlie.
+
+\subsection{Data Types}
+
+A \textbf{data type} is a classification of data based on the type of
+values it can hold. MySQL supports a wide range of data types, including
+numeric, string, date, and time data types. Data types are used to
+specify the type of data that can be stored in a column in a table.
+
+\subsubsection{Numeric Data Types}
+
+Numeric data types are used to store numeric values, such as integers,
+decimals, and floating-point numbers. MySQL supports a variety of
+numeric data types, including \textbf{INT}, \textbf{DECIMAL},
+\textbf{FLOAT}, \textbf{DOUBLE}, \textbf{TINYINT}, \textbf{SMALLINT},
+\textbf{MEDIUMINT}, and \textbf{BIGINT}.
+
+\subsubsection{Character and String Data Types}
+
+Character and string data types are used to sto andre text values, such as
+names, addresses, and descriptions. MySQL supports a variety of
+character and string data types, including \textbf{CHAR}, \textbf{VARCHAR},
+and \textbf{TEXT}.
+
+\subsubsection{Date and Time Data Types}
+
+Date and time data types are used to store date and time values, such as
+birthdates, appointment times, and event dates. MySQL supports a variety
+of date and time data types, including \textbf{DATE}, \textbf{TIME},
+\textbf{DATETIME}, and \textbf{TIMESTAMP}.
+
+\subsubsection{Binary Data Types}
+
+Binary data types are used to store binary data, such as images, audio
+files, and video files. MySQL supports a variety of binary data types,
+including \textbf{BLOB}, \textbf{MEDIUMBLOB}, and \textbf{LONGBLOB}.
+
+\subsubsection{Boolean Data Type}
+
+The \textbf{BOOLEAN} data type is used to store boolean values, such as
+true or false. In MySQL, boolean values are represented as 1 for true and
+0 for false.
+
+\subsection{NULL Values}
+
+A \textbf{NULL} value is a special value that represents the absence of
+a value. NULL values are used to indicate that a column does not contain
+any data. In MySQL, columns can be defined to allow NULL values, which
+means that the column can contain NULL values in addition to other
+values.
+
+\subsection{Comments}
+
+Comments are used to add explanatory notes to the SQL code. Comments are
+ignored by the MySQL server and are used to document the code for
+reference. Comments can be added to SQL code using the \textbf{--} or
+\textbf{/* */} syntax.
+
+\begin{lstlisting}[language=SQL, caption={Example of a comment in SQL code}, label={lst:comment}]
+-- This is a single-line comment
+
+/*
+  This is a multi-line comment
+  that spans multiple lines
+*/
+
+SELECT * FROM users; -- This is a comment at the end of a line
+\end{lstlisting}
+
+Code \ref{lst:comment} shows an example of comments in SQL code.
+Comments can be added to SQL code using the \textbf{--} syntax for
+single-line comments and the \textbf{/* */} syntax for multi-line
+comments.
+
+\chapter{Managing Databases}
+
+\section{Creating a Database}
+
+To create a new database in MySQL, you can use the \textbf{CREATE
+DATABASE} statement followed by the name of the database. The following
+example creates a new database named \textbf{database\_name}:
+
+\begin{lstlisting}[language=SQL, caption={Creating a new database in MySQL}, label={lst:create-database}]
+CREATE DATABASE database_name;
+\end{lstlisting}
+
+Code \ref{lst:create-database} shows an example of creating a new
+database in MySQL using the \textbf{CREATE DATABASE} statement. The
+statement creates a new database named \textbf{database\_name}. Once the
+database is created, you can use it to store tables and data.
+
+\section{Showing Databases}
+
+To display a list of all databases in MySQL, you can use the \textbf{SHOW
+DATABASES} statement. The following example shows a list of all databases
+in MySQL:
+
+\begin{lstlisting}[language=SQL, caption={Showing all databases in MySQL}, label={lst:show-databases}]
+SHOW DATABASES;
+\end{lstlisting}
+
+Code \ref{lst:show-databases} shows an example of displaying a list of
+all databases in MySQL using the \textbf{SHOW DATABASES} statement. The
+statement lists all databases that are currently available in the MySQL
+server.
+
+\section{Selecting a Database}
+
+To select a database in MySQL, you can use the \textbf{USE} statement
+followed by the name of the database. The following example selects the
+\textbf{database\_name} database:
+
+\begin{lstlisting}[language=SQL, caption={Selecting a database in MySQL}, label={lst:select-database}]
+USE database_name;
+\end{lstlisting}
+
+Code \ref{lst:select-database} shows an example of selecting a database
+in MySQL using the \textbf{USE} statement. The statement selects the
+\textbf{database\_name} database, which allows you to perform operations
+on the tables and data in that database.
+
+\section{Removing a Database}
+
+To remove a database in MySQL, you can use the \textbf{DROP DATABASE}
+statement followed by the name of the database. The following example
+removes the \textbf{database\_name} database:
+
+\begin{lstlisting}[language=SQL, caption={Removing a database in MySQL}, label={lst:drop-database}]
+DROP DATABASE database_name;
+\end{lstlisting}
+
+Code \ref{lst:drop-database} shows an example of removing a database in
+MySQL using the \textbf{DROP DATABASE} statement. The statement deletes
+the \textbf{database\_name} database and all tables and data stored in
+that database.
+
+\noindent\textbf{Exercises}
+
+\begin{lstlisting}[numbers=none]
+1. Create a new database named "employees".
+2. Display a list of all databases in MySQL.
+3. Select the "employees" database.
+4. Remove the "employees" database.
+\end{lstlisting}
+
+\chapter{Managing Tables}
+
+\chapter{References}
+
+\begin{enumerate}[label={\textbf{\Alph*.}}]
+  \item \textbf{Books}
+    \begin{itemize}
+      \item 
+    \end{itemize}
+  \item \textbf{Other Sources}
+    \begin{itemize}
+      \item 
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
