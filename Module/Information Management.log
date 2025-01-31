@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  24 JAN 2025 13:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  31 JAN 2025 12:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1099,22 +1099,24 @@ l.81 \end{dedication}
 ] (./Information Management.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10.95> on input line 6.
-)
-\tf@toc=\write5
-\openout5 = `"Information Management.toc"'.
-
 
 
 [2
 
 
-] (./Information Management.lof)
+])
+\tf@toc=\write5
+\openout5 = `"Information Management.toc"'.
+
+
+
+[3] (./Information Management.lof)
 \tf@lof=\write6
 \openout6 = `"Information Management.lof"'.
 
 
 
-[3
+[4
 
 ] (./Information Management.lot)
 \tf@lot=\write7
@@ -1122,7 +1124,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-[4
+[5
 
 ] (./Information Management.lol)
 \tf@lol=\write8
@@ -1130,7 +1132,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-[5
+[6
 
 ]
 
@@ -1148,7 +1150,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [3] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 231.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 227.
 
 
 [4]
@@ -1170,13 +1172,34 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 [8]
 
 [9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
  4.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 462.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[14
+
+]
+
+[15]
+
+[16]
+ 5.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 863.
 (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[10
+[17
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (./Information Management.aux)
  ***********
@@ -1184,21 +1207,21 @@ LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
  ***********
 Package rerunfilecheck Info: File `"Information Management".out' has not changed.
-(rerunfilecheck)             Checksum: D178EEBD7EE090948CF617AC3424055E;4068.
+(rerunfilecheck)             Checksum: C347F83D41FC797E87CB219D2D00D53C;6506.
  ) 
 Here is how much of TeX's memory you used:
- 34587 strings out of 473207
- 648191 string characters out of 5720461
- 1423388 words of memory out of 5000000
- 56891 multiletter control sequences out of 15000+600000
- 669541 words of font info for 216 fonts, out of 8000000 for 9000
+ 34781 strings out of 473207
+ 650786 string characters out of 5720461
+ 1432388 words of memory out of 5000000
+ 56955 multiletter control sequences out of 15000+600000
+ 671137 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,1326b,2046s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1326b,2080s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Information Management.pdf" (16 pages, 342020 bytes).
+Output written on "Information Management.pdf" (24 pages, 370293 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 375 compressed objects within 4 object streams
- 114 named destinations out of 1000 (max. 500000)
- 62813 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 596 compressed objects within 6 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 62933 words of extra memory for PDF output out of 74296 (max. 10000000)
 
