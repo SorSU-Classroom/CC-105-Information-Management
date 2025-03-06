@@ -1,13 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1738298790.95117 "c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" "Information Management.pdf" "Information Management" 1738298793.81043 0
-  "Information Management.aux" 1738298793 13620 6e1b0adb74b04d6a36021ac06c3a561a "pdflatex"
-  "Information Management.lof" 1738298793 130 f826c84079cca262924fc91efb7dde9a "pdflatex"
-  "Information Management.lol" 1738298793 3229 95b3afd71a60102f9b6012dd27045b59 "pdflatex"
-  "Information Management.lot" 1738298793 343 17c7591b3c3da15d597fb8cfa080bbe6 "pdflatex"
-  "Information Management.out" 1738298793 6506 c347f83d41fc797e87cb219d2d00d53c "pdflatex"
-  "Information Management.tex" 1738298791 35967 6bf469ef05c2b0b4b2d69ca90ab8ac45 ""
-  "Information Management.toc" 1738298793 3644 a8df30d63b39f7a8c8af06332c5f3590 "pdflatex"
-  "c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" 1738298791 35967 6bf469ef05c2b0b4b2d69ca90ab8ac45 ""
+["pdflatex"] 1741243169.02219 "c:/Users/jarri/OneDrive/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" "Information Management.pdf" "Information Management" 1741243171.67511 0
+  "Information Management.aux" 1741243171 13620 6e1b0adb74b04d6a36021ac06c3a561a "pdflatex"
+  "Information Management.lof" 1741243171 130 f826c84079cca262924fc91efb7dde9a "pdflatex"
+  "Information Management.lol" 1741243171 3229 95b3afd71a60102f9b6012dd27045b59 "pdflatex"
+  "Information Management.lot" 1741243171 343 17c7591b3c3da15d597fb8cfa080bbe6 "pdflatex"
+  "Information Management.out" 1741243171 6506 c347f83d41fc797e87cb219d2d00d53c "pdflatex"
+  "Information Management.tex" 1741243165 36161 cea18cb797c9211161d106699d0f8793 ""
+  "Information Management.toc" 1741243171 3644 a8df30d63b39f7a8c8af06332c5f3590 "pdflatex"
+  "c:/Users/jarri/OneDrive/Documents/SorSU/__Repository__/CC-105-Information-Management/Module/Information Management.tex" 1741243165 36161 cea18cb797c9211161d106699d0f8793 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1737124372 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1737124372 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1737119831 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -265,7 +265,7 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1737136867 5511921 18a028efc78b2843c6afa60bdbc6c82c ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1737137039 3352053 bd0b65ed65e005aa54958bb455d3756a ""
   "c:/texlive/2024/texmf.cnf" 1737136840 713 e69b156964470283e0530f5060668171 ""
-  "modulestyle.sty" 1737686838 4795 9143867783c672bcc923ac8bf05fa204 ""
+  "modulestyle.sty" 1741243071 4795 9143867783c672bcc923ac8bf05fa204 ""
   (generated)
   "Information Management.aux"
   "Information Management.lof"

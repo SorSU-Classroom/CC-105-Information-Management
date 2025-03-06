@@ -690,8 +690,17 @@ INSERT INTO table_name (name, age) VALUES
 \end{lstlisting}
 
 \noindent\textbf{Exercises}
+
 \begin{lstlisting}[numbers=none]
-  1. Insert the following records in the "books" table:
+1. Create a database named "library".
+2. Create a table named "books" with columns:
+    - id (INT, PRIMARY KEY, AUTO_INCREMENT)
+    - title (VARCHAR, 100)
+    - author (VARCHAR, 50)
+    - year (INT)
+    - genre (VARCHAR, 50)
+    - isbn (VARCHAR, 20)
+3. Insert the following records in the "books" table:
 \end{lstlisting}
 
 % Table of 6 records to insert
@@ -699,22 +708,22 @@ INSERT INTO table_name (name, age) VALUES
   \centering
   \begin{tabular}{|c|c|c|c|c|c|}
     \hline
-    \textbf{id} & \textbf{title}        & \textbf{author}     & \textbf{year} & \textbf{genre}  & \textbf{isbn\_number} \\
+    \textbf{id} & \textbf{title}        & \textbf{author}     & \textbf{year} & \textbf{genre}  & \textbf{isbn} \\
     \hline
     % 1 Fiction
-    1           & The Great Gatsby      & F. Scott Fitzgerald & 1925          & Fiction         & 9780743273565         \\
+    1           & The Great Gatsby      & F. Scott Fitzgerald & 1925          & Fiction         & 9780743273565 \\
     % 2 Horror
-    2           & The Shining           & Stephen King        & 1977          & Horror          & 9780307743657         \\
+    2           & The Shining           & Stephen King        & 1977          & Horror          & 9780307743657 \\
     % 3 Mystery
-    3           & The Da Vinci Code     & Dan Brown           & 2003          & Mystery         & 9780307474278         \\
+    3           & The Da Vinci Code     & Dan Brown           & 2003          & Mystery         & 9780307474278 \\
     % 4 Science Fiction
-    4           & Dune                  & Frank Herbert       & 1965          & Science Fiction & 9780441172719         \\
+    4           & Dune                  & Frank Herbert       & 1965          & Science Fiction & 9780441172719 \\
     % 5 Fantasy
-    5           & The Hobbit            & J.R.R. Tolkien      & 1937          & Fantasy         & 9780618260300         \\
+    5           & The Hobbit            & J.R.R. Tolkien      & 1937          & Fantasy         & 9780618260300 \\
     % 6 Romance
-    6           & Pride and Prejudice   & Jane Austen         & 1813          & Romance         & 9780141439518         \\
+    6           & Pride and Prejudice   & Jane Austen         & 1813          & Romance         & 9780141439518 \\
     % 7 Fiction
-    7           & To Kill a Mockingbird & Harper Lee          & 1960          & Fiction         & 9780061120084         \\
+    7           & To Kill a Mockingbird & Harper Lee          & 1960          & Fiction         & 9780061120084 \\
     \hline
   \end{tabular}
   \caption{Records to insert in the "books" table}
