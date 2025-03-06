@@ -1,2 +1,10 @@
 **/venv
 app-dev/
+**/**.fls
+/.metadata/
+.metadata/
+samples/
+**/com/**/Exercises/
+**/**Exam/
+Module/
+!/Module/**/*.pdf
